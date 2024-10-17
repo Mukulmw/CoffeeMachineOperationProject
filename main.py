@@ -28,4 +28,3 @@ while True:
             print(f"The cost of drink: {obj_dict[user_wants].cost}")
             if  money.make_payment(obj_dict[user_wants].cost) == True:
                 resources.make_coffee(obj_dict[user_wants])
-
